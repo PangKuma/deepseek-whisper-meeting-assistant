@@ -1,0 +1,13 @@
+# Decision Keeper - Python Dependencies
+
+# OpenAI SDK (for DeepSeek API)
+openai>=1.0.0
+
+# MLX Whisper (local speech recognition for Apple Silicon)
+mlx-whisper>=0.1.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# Audio processing (FFmpeg is required separately, see README)
+# Install FFmpeg: brew install ffmpeg (macOS)

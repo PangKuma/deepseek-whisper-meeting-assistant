@@ -1,0 +1,25 @@
+# 忽略系统文件
+.DS_Store
+
+# 忽略环境配置 
+.env
+
+# 忽略 Python 缓存和虚拟环境
+__pycache__/
+venv/
+.venv/
+
+# 忽略所有数据文件 (录音、视频、结果)
+meeting_input/
+video_input/
+audio_input/
+text_output/
+md_output/
+summary_output/
+records/
+outputs/
+models/
+
+# 忽略 n8n 的临时文件
+running.lock
+running.log
